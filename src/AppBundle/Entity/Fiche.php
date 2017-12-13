@@ -85,6 +85,25 @@ class Fiche
     }
 
     /**
+     * @param mixed $projet
+     */
+    public function setProjet($projet)
+    {
+        $this->projet = $projet;
+    }
+
+    /**
+     * @param mixed $manager
+     */
+    public function setManager($manager)
+    {
+        $this->manager = $manager;
+    }
+
+
+
+
+    /**
      * Get id
      *
      * @return int

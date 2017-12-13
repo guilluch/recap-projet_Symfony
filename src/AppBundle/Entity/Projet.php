@@ -50,7 +50,7 @@ class Projet
     private $dateEnd;
 
     public function getFiche() {
-        return $fiches;
+        return $this->fiches;
     }
 
     /**
@@ -134,6 +134,7 @@ class Projet
     {
         return $this->dateEnd;
     }
+
 
     public function __toString() {
         return $this->projectName;

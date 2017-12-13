@@ -131,5 +131,10 @@ class Manager
     {
         return $this->title;
     }
+
+
+    public function __toString() {
+        return $this->firstName . ' ' . $this->lastName;
+    }
 }
 
